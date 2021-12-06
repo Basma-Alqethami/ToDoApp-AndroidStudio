@@ -1,5 +1,5 @@
 package com.example.todoapp
 
-class Items (var titleItem: String, var selected: Boolean) {
+data class Items (var titleItem: String, var selected: Boolean = false) {
 
 }
